@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Lisense"
+  },
+  "description": "Lisense helps users look up UK vehicle details, tax status, recorded mileage and MOT history; resolve a registration from an MOT test ID; search partial registrations; and check enhanced specifications or Motability status through their connected Lisense account.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Look up TE57CAR and summarise its tax and MOT status",
+      "Show me the MOT history and latest advisories for TE57CAR",
+      "Find five registrations beginning with TE57"
+    ],
+    "developerName": "Lisense",
+    "displayName": "Lisense",
+    "longDescription": "Lisense helps users look up UK vehicle details, tax status, recorded mileage and MOT history; resolve a registration from an MOT test ID; search partial registrations; and check enhanced specifications or Motability status through their connected Lisense account.",
+    "privacyPolicyURL": "https://lisense.uk/privacy",
+    "shortDescription": "UK vehicle and MOT lookups",
+    "supportURL": "https://lisense.uk/help",
+    "termsOfServiceURL": "https://lisense.uk/terms",
+    "websiteURL": "https://lisense.uk",
+    "logo": "./assets/lisense-logo.png",
+    "composerIcon": "./assets/lisense-logo.png"
+  },
+  "name": "app-6aafd609b060819186160072110c7939",
+  "version": "1.0.2",
+  "extensions": {
+    "com.openai": {
+      "publication": {
+        "release_notes": "Restores the existing Lisense MCP declaration using the Codex compatibility package format requested by OpenAI Support. The manifest references ./.mcp.json, which declares the unchanged endpoint https://lisense.uk/mcp. Retains the approved listing and the reviewer sign-in and OAuth fixes from version 1.0.1. No credentials are included."
+      }
+    }
+  },
+  "mcpServers": "./.mcp.json"
+}

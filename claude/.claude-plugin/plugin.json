@@ -1,0 +1,14 @@
+{
+  "name": "lisense",
+  "version": "1.0.0",
+  "description": "Look up UK vehicle details, tax status, mileage and MOT history, search partial registrations, and manage your Lisense garage.",
+  "author": { "name": "Lisense" },
+  "homepage": "https://lisense.uk/lisense-mcp",
+  "repository": "https://github.com/LisenseUK/lisense-plugins",
+  "license": "MIT",
+  "keywords": ["uk-vehicles", "dvla", "mot", "vehicle-data"],
+  "icon": "./assets/icon.png",
+  "supportUrl": "https://lisense.uk/help",
+  "privacyPolicyUrl": "https://lisense.uk/privacy",
+  "termsOfServiceUrl": "https://lisense.uk/terms"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lisense",
+  "description": "Lisense plugins for UK vehicle data and garage management.",
+  "owner": { "name": "Lisense" },
+  "plugins": [
+    {
+      "name": "lisense",
+      "source": "./claude",
+      "description": "UK vehicle, MOT and garage tools from Lisense."
+    }
+  ]
+}

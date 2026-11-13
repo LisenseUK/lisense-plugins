@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lisense": {
+      "type": "http",
+      "url": "https://lisense.uk/mcp"
+    }
+  }
+}
